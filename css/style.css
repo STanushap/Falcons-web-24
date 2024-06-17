@@ -81,6 +81,7 @@ p {
 
 img.botbot {
   max-width: 50%;
+  height: auto;
 }
 
 img {
