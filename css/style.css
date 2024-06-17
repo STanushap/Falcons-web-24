@@ -2117,6 +2117,11 @@ ol {
     padding-left: 25px;
   }
 
+  img {
+    max-width: 150%;
+    height: auto;
+  }
+
   .counter__item::before {
     display: none !important;
   }
@@ -2261,6 +2266,11 @@ ol {
   .header__nav__option {
     display: none !important;
   }
+
+  img {
+    max-width: 50%;
+    height: auto;
+  }
 }
 /* Wide Mobile = 480px */
 @media only screen and (max-width: 767px) {
@@ -2302,6 +2312,11 @@ ol {
     height: auto !important;
     padding-top: 100px !important;
     padding-bottom: 70px !important;
+  }
+
+  img {
+    max-width: 50%;
+    height: auto;
   }
 
   .team__item.team__item--second {
@@ -2448,6 +2463,11 @@ ol {
   .hero__text h2 {
     font-size: 30px !important;
     line-height: 40px !important;
+  }
+
+  img {
+    max-width: 50%;
+    height: auto;
   }
 
   .grid-sizer {
