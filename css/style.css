@@ -2098,6 +2098,17 @@ ol {
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
+@media only screen and (min-width: 1500px) {
+  .container {
+    max-width: 1370px !important;
+  }
+  .depts {
+    margin-right: -250px; 
+    margin-left: -50px;
+  }
+  
+}
+
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1170px !important;
@@ -2105,7 +2116,7 @@ ol {
 
   
   .depts {
-    margin-right: -250px; 
+    margin-right: -50px; 
     margin-left: -50px;
   }
 }
@@ -2128,6 +2139,8 @@ ol {
     height: auto;
   }
 
+    
+
   .counter__item::before {
     display: none !important;
   }
@@ -2149,10 +2162,11 @@ ol {
   }
 
   .depts {
-    margin-right: -250px; 
+    margin-right: -50px; 
     margin-left: -50px;
   }
 }
+
 /* Tablet Device = 768px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero__slider.owl-carousel .owl-dots {
@@ -2284,9 +2298,38 @@ ol {
   }
 
   .depts {
-    margin-right: -50px; 
-    margin-left: -50px;
+    margin-right: -40px; 
+    margin-left: -40px;
   }
+
+
+  .callto__text h2 {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 22px;
+  }
+
+  .callto__text p {
+    font-size: 13px;
+    color: #ffffff;
+    opacity: 0.7;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+    line-height: 20px;
+  }
+
+
+}
+/* Tablet Device = */  
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  img {
+    max-width: 50%;
+    height: auto;
+  }
+
+
 }
 /* Wide Mobile = 480px */
 @media only screen and (max-width: 767px) {
@@ -2331,9 +2374,28 @@ ol {
   }
 
   img {
-    max-width: 50%;
-    height: auto;
+    max-width: 50% !important;
+    height: auto !important;
   }
+
+  
+  .callto__text h2 {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 22px;
+  }
+
+  .callto__text p {
+    font-size: 13px;
+    color: #ffffff;
+    opacity: 0.7;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+    line-height: 20px;
+  }
+
 
   .team__item.team__item--second {
     margin-top: 0 !important;
