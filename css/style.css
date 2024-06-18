@@ -2102,6 +2102,12 @@ ol {
   .container {
     max-width: 1170px !important;
   }
+
+  
+  .depts {
+    margin-right: -250px; 
+    margin-left: -50px;
+  }
 }
 /* Medium Device = 1200px */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2140,6 +2146,11 @@ ol {
 
   .hero__slider.owl-carousel .owl-dots {
     max-width: 930px !important;
+  }
+
+  .depts {
+    margin-right: -250px; 
+    margin-left: -50px;
   }
 }
 /* Tablet Device = 768px */
@@ -2270,6 +2281,11 @@ ol {
   img {
     max-width: 50%;
     height: auto;
+  }
+
+  .depts {
+    margin-right: -50px; 
+    margin-left: -50px;
   }
 }
 /* Wide Mobile = 480px */
