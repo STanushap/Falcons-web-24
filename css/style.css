@@ -2373,6 +2373,14 @@ ol {
     height: auto;
   }
 
+
+  .lightbox img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
   .depts {
     margin-right: -40px; 
     margin-left: -40px;
@@ -2405,6 +2413,11 @@ ol {
     height: auto;
   }
 
+  .lightbox img {
+    max-width: 100%;
+    height: auto;
+  }
+
 
 }
 
@@ -2412,8 +2425,8 @@ ol {
 @media only screen and (min-width: 540px) and (max-width: 767px) {
   .missionpicpicpic2{
     padding-left : 100px;
-  }
 
+  }
 
 }
 
@@ -2425,7 +2438,6 @@ ol {
   .flexflexflex{
     margin-left: 30px !important;
   }
-
 
 }
 
@@ -2473,11 +2485,17 @@ ol {
     padding-bottom: 70px !important;
   }
 
+  .lightbox img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
   img {
     max-width: 50% !important;
     height: auto !important;
   }
 
+  
   
   .callto__text h2 {
     color: #ffffff;
@@ -2653,6 +2671,11 @@ ol {
 
   img {
     max-width: 50%;
+    height: auto;
+  }
+
+  .lightbox img {
+    max-width: 100%;
     height: auto;
   }
 
