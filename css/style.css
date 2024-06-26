@@ -2715,6 +2715,12 @@ ol {
     height: auto;
   }
 
+    
+  .about__pic__item.about__pic__item--large {
+    height: 300px;
+    width: 300px
+  }
+
   .grid-sizer {
     width: 100% !important;
   }
