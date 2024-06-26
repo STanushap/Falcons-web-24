@@ -1085,6 +1085,7 @@ ol {
   margin-bottom: 0px;
   margin-top: 0px;
 }
+
 .about__pic__item.about__pic__item--large {
   height: 410px;
   width: 410px
@@ -2136,6 +2137,11 @@ ol {
     flex: 0 0 50%;
     max-width: 100%;
   }
+
+  .flag_pic1 .flag_text1{
+    flex: 0 0 50%;
+    max-width: 100%;
+  }
   
 }
 
@@ -2149,6 +2155,10 @@ ol {
   }
 
   
+  .about__pic__item.about__pic__item--large {
+    height: 410px;
+    width: 545px
+  }
 
   .missionpicpicpic1{
     padding-left : 30px;
@@ -2193,6 +2203,10 @@ ol {
   }
 
   
+  .about__pic__item.about__pic__item--large {
+    height: 410px;
+    width: 445px
+  }
     
 
   .counter__item::before {
@@ -2405,6 +2419,17 @@ ol {
   }
 
 
+  .flag_pic .flag_text{
+    flex: 0 0 100%
+  }
+
+    
+  .about__pic__item.about__pic__item--large {
+    height: 410px;
+    width: 690px
+  }
+
+
 }
 /* Tablet Device = */  
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -2446,6 +2471,11 @@ ol {
 @media only screen and (max-width: 767px) {
   .services__title {
     margin-bottom: 50px !important;
+  }
+
+  .about__pic__item.about__pic__item--large {
+    height: 410px;
+    width: 505px
   }
 
 
