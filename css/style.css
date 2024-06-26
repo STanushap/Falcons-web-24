@@ -1086,6 +1086,12 @@ ol {
   margin-top: 0px;
 }
 
+.flag__pic__item.flag__pic__item--large {
+  height: 410px;
+  width: 410px
+}
+
+
 .about__pic__item.about__pic__item--large {
   height: 410px;
   width: 410px
@@ -2155,7 +2161,7 @@ ol {
   }
 
   
-  .about__pic__item.about__pic__item--large {
+  .flag__pic__item.flag__pic__item--large {
     height: 410px;
     width: 545px
   }
@@ -2165,7 +2171,7 @@ ol {
   }
 
   .missionpicpicpic2{
-    padding-left : 115px;
+    padding-left : 70px;
   }
   
   .depts {
@@ -2203,7 +2209,7 @@ ol {
   }
 
   
-  .about__pic__item.about__pic__item--large {
+  .flag__pic__item.flag__pic__item--large {
     height: 410px;
     width: 445px
   }
@@ -2424,7 +2430,7 @@ ol {
   }
 
     
-  .about__pic__item.about__pic__item--large {
+  .flag__pic__item.flag__pic__item--large {
     height: 410px;
     width: 690px
   }
@@ -2473,7 +2479,7 @@ ol {
     margin-bottom: 50px !important;
   }
 
-  .about__pic__item.about__pic__item--large {
+  .flag__pic__item.flag__pic__item--large {
     height: 410px;
     width: 505px
   }
