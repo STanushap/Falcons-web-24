@@ -148,6 +148,16 @@ ol {
   content: "";
 }
 
+.section-title h2.wedo:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 190px;
+  background: #00bfe7;
+  content: "";
+}
+
 .section-title h2.mission:after {
   position: absolute;
   right: 0;
@@ -1071,9 +1081,9 @@ ol {
 .about__pic__item {
   height: 235px;
   margin-right: 0px;
-  margin-left: -30px;
-  margin-bottom: 100px;
-  margin-top: -35px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 .about__pic__item.about__pic__item--large {
   height: 410px;
@@ -1084,6 +1094,13 @@ ol {
   padding-left: 30px;
 }
 .about__text .services__item .services__item__icon:after {
+  border-color: #281A3E;
+}
+
+.mission__text {
+  padding-left: 30px;
+}
+.mission__text .services__item .services__item__icon:after {
   border-color: #281A3E;
 }
 
@@ -1489,6 +1506,10 @@ ol {
   position: relative;
 }
 
+.picbox { 
+  height: 240px;
+}
+
 .tz-gallery .lightbox :before {
   position: absolute;
   top: 50%;
@@ -1527,7 +1548,7 @@ ol {
 
 @media (max-width: 1000px) {
   body {
-    background-color: #fbf7f2;
+    background-color: #212529;
     font: normal 16px sans-serif;
     padding: 0px 0;
   }
@@ -1574,9 +1595,9 @@ ol {
 
 @media (max-width: 800px) {
   body {
-    background-color: #ffffff;
+    background-color: #212529;
     opacity: 1;
-    background-image:  radial-gradient(#000000 0.5px, transparent 0.5px), radial-gradient(#000000 0.5px, #ffffff 0.5px);
+    background-image:  radial-gradient(#000000 0.5px, transparent 0.5px), radial-gradient(#000000 0.5px, #212529 0.5px);
     background-size: 20px 20px;
     background-position: 0 0,10px 10px;
     font: normal 16px sans-serif;
@@ -2036,7 +2057,7 @@ ol {
 -----------------------*/
 .contact {
   background: #100028;
-  padding-top: 0;
+  padding-top: 0px;
   overflow: hidden;
 }
 
@@ -2106,6 +2127,15 @@ ol {
     margin-right: -250px; 
     margin-left: -50px;
   }
+  .about_flex{
+    flex: 0 0 50%;
+    max-width: 100%;
+  }
+
+  .mission_flex{
+    flex: 0 0 50%;
+    max-width: 100%;
+  }
   
 }
 
@@ -2114,16 +2144,39 @@ ol {
     max-width: 1170px !important;
   }
 
+  .about__pic .aboutpicpicpic{
+    padding-left : 70px;
+  }
+
+  
+
+  .missionpicpicpic1{
+    padding-left : 30px;
+  }
+
+  .missionpicpicpic2{
+    padding-left : 115px;
+  }
   
   .depts {
     margin-right: -50px; 
     margin-left: -50px;
   }
 }
+
 /* Medium Device = 1200px */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header__nav__menu {
     margin-right: 25px !important;
+  }
+
+  .missionpicpicpic1{
+    padding-right : 20px;
+    padding-left: 0;
+  }
+
+  .missionpicpicpic2{
+    padding-left : 40px;
   }
 
   .header__nav__menu ul li {
@@ -2139,6 +2192,7 @@ ol {
     height: auto;
   }
 
+  
     
 
   .counter__item::before {
@@ -2165,6 +2219,16 @@ ol {
     margin-right: -50px; 
     margin-left: -50px;
   }
+
+  
+  .mission__text {
+    padding-left: 0 !important;
+    padding-right: 30px;
+  }
+
+  
+  
+
 }
 
 /* Tablet Device = 768px */
@@ -2234,7 +2298,19 @@ ol {
     margin-bottom: 50px !important;
   }
 
+  .mission__pic {
+    margin-top: 50px !important;
+  }
+
+  .missionpicpicpic2{
+    padding-left : 280px;
+  }
+
   .about__text {
+    padding-left: 0 !important;
+  }
+
+  .mission__text {
     padding-left: 0 !important;
   }
 
@@ -2331,11 +2407,35 @@ ol {
 
 
 }
+
+/* Tablet Device = */  
+@media only screen and (min-width: 540px) and (max-width: 767px) {
+  .missionpicpicpic2{
+    padding-left : 100px;
+  }
+
+
+}
+
+@media only screen and (min-width: 480) and (max-width: 539) {
+  .mission_flex{
+    margin-left: 30px !important;
+  }
+
+  .flexflexflex{
+    margin-left: 30px !important;
+  }
+
+
+}
+
+
 /* Wide Mobile = 480px */
 @media only screen and (max-width: 767px) {
   .services__title {
     margin-bottom: 50px !important;
   }
+
 
   .counter__item {
     -webkit-transform: rotate(0) !important;
@@ -2418,7 +2518,15 @@ ol {
     margin-bottom: 50px !important;
   }
 
+  .mission__pic {
+    margin-top: 50px !important;
+  }
+
   .about__text {
+    padding-left: 0 !important;
+  }
+
+  .mission__text {
     padding-left: 0 !important;
   }
 
